@@ -4,19 +4,10 @@
 ; verses of the song, Last Surprise, by Shoji Meguro
 ; from the game, Persona 5.
 
-.386
-.model  flat,stdcall
-option  casemap:none
-
 ; Below are the libraries and files referenced for
 ; the program to work properly.
 
 include\masm32\include\masm32rt.inc
-
-includelib\masm32\lib\masm32.lib
-includelib\masm32\lib\kernel32.lib
-includelib\masm32\lib\gdi32.lib
-includelib\masm32\lib\user32.lib
 
 .data
 
